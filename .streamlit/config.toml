@@ -1,0 +1,9 @@
+[theme]
+base = "light"
+primaryColor = "#008000"
+textColor = "#003300"
+font = "inter"
+
+[[theme.fontFaces]]
+family = "inter"
+url = "https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
