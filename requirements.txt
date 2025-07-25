@@ -1,0 +1,10 @@
+keras
+opencv-python
+numpy
+streamlit
+google-generativeai
+requests
+folium
+streamlit-folium
+supabase
+python-dotenv
