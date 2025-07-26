@@ -10,6 +10,7 @@ from streamlit_folium import st_folium
 import random
 import hashlib
 from supabase import create_client, Client
+from huggingface_hub import hf_hub_download
 import re
 
 gemini_api_key = st.secrets["GEMINI_API_KEY"]
@@ -108,10 +109,11 @@ tips = {
 }
 
 
-# Loading the classification model
+# Loading the classification model from HuggingFace
 @st.cache_resource
 def load_model():
-    return keras.saving.load_model("hf://AIforGreat/TrashClassification")
+    model_path = hf_hub_download(repo_id="AIforGreat/TrashClassification", filename="model.keras")
+    return keras.models.load_model(model_path)
 
 model = load_model()
 
