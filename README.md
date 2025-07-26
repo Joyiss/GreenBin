@@ -1,57 +1,47 @@
-# 🌱 Green Bin App
+# Green Bin App
 
-## 🌼 Overview
+## Overview
 
-**Green Bin App** is a web-based solution built to promote **eco-friendly waste disposal habits** this Spring. As the season symbolizes **renewal and growth**, our app encourages individuals and communities to take part in **reviving the planet**—one correctly sorted item at a time.
+Green Bin is a simple web app that helps people figure out how to throw away items the right way. It’s especially helpful during Spring, when people are doing more cleaning and throwing out old stuff.
 
-The app provides users with smart, accessible guidance on how to properly dispose of their waste using AI and real-time data. It helps reduce contamination in recycling and compost bins, ultimately lowering landfill overflow and contributing to a cleaner, greener world.
+This app helps reduce waste going to the landfill by teaching people how to recycle properly. It uses real data and AI to give helpful info about what to do with different items.
 
-## 🧩 Problem Statement
+## Problem
 
-Many people unknowingly place non-recyclable or dirty items into green bins. This **contaminates the entire batch**, leading to tons of otherwise recyclable waste being sent to landfills. The lack of clear and easy-to-use tools leaves users guessing—and often getting it wrong.
+Many people don’t know what belongs in the trash bin. If someone throws the wrong item in, it can mess up the whole bin and cause everything to go to the landfill. This happens a lot because recycling rules are confusing, and there aren’t enough tools to help.
 
-## 💡 Our Spring-Inspired Solution
+## What This App Does
 
-The **Green Bin App** combines AI, environmental data, and an easy-to-use interface to solve this problem:
+- ✅ You can take a picture of a item to see how to throw it away.
+- 📍 It shows nearby recycling drop-off locations.
+- 📚 Gives helpful tips and fun facts.
+- 🧼 Raises awareness on the importance of recycling and reusing.
 
-- 🌿 **Item lookup and identification** — Enter or scan an item to find out how to dispose of it.
-- 🔄 **API-powered drop-off locator** — Find nearby recycling centers or green bin drop-off points.
-- 📘 **Educational resources** — Learn what can and can’t be recycled.
-- 🌼 **Seasonal reminders** — Spring cleaning? We help you sort as you go!
+## Why It Matters
 
-## 🌍 Social Good & Environmental Impact
+- Less waste goes to landfills.
+- Helps people build better recycling habits.
+- Saves money for cities.
+- Keeps the environment cleaner.
 
-- ✅ Reduces contamination in recycling and compost bins.
-- ♻️ Promotes community-wide sustainable waste habits.
-- 🚮 Helps cities reduce waste management costs.
-- 🌱 Contributes to Earth’s well-being—just in time for Spring.
+## Try It
 
-## 🔗 Website
+🌐 [Use the app here](https://greenbin.streamlit.app/)
 
-🎯 **Use the app instantly:**  
-[Visit Green Bin App →](https://greenbin.streamlit.app/)  
+It works right in your browser — no downloads needed.
 
-No setup needed — just open and start sorting smarter!
+## GitHub Repo
 
-## 📂 GitHub Repository
+You can see all the code here:  
+[https://github.com/Joyiss/GreenBin](https://github.com/Joyiss/GreenBin)  
 
-All code, assets, and documentation are available here:  
-[https://github.com/yourusername/green-bin-app](https://github.com/yourusername/green-bin-app)  
-(*Replace with your actual repository URL*)
+## Built With
 
-## 🛠 Tech Stack
-
-- Python 🐍
-- Streamlit 🌐
-- Earth911 API ♻️
-- Custom-trained classification model 🎯
-
-## 📄 Documentation
-
-The codebase is fully commented for clarity. For judges and developers:
-- Check `app.py` for core logic.
-- See the `docs/` folder for API reference and model explanation.
-
+- Python  
+- Streamlit  
+- Earth911 API  
+- Tensorflow
+- Supabase
 ---
 
-Let’s make Spring the start of something sustainable 🌼🌍
+Let me know if you want to add install/setup instructions or a demo video!
