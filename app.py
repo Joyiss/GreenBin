@@ -276,9 +276,9 @@ def upload_misclassified_image(image, true_class, mime_type):
     supabase.storage.from_("misclassified-images").upload(path, image_bytes, {"content-type": mime_type})
 
 # Basic settings for the website
-st.set_page_config("Green Bin", "Images/icon.png", layout="wide")
-st.logo("Images/logo.png", size="large", icon_image="Images/icon.png")
-st.image("Images/logo.png", width=200)
+st.set_page_config("Green Bin", "assets/icon.png", layout="wide")
+st.logo("assets/logo.png", size="large", icon_image="assets/icon.png")
+st.image("assets/logo.png", width=200)
 
 # Creating the separate tabs for each section
 tab1, tab2, tab3, tab4 = st.tabs([":material/home: Home", ":material/location_on: Locations", ":material/developer_guide: How to Use", ":material/info: About"])
