@@ -111,7 +111,7 @@ tips = {
 # Loading the classification model
 @st.cache_resource
 def load_model():
-    return keras.models.load_model('model/trashClassifier.keras')
+    return keras.saving.load_model("hf://AIforGreat/TrashClassification")
 
 model = load_model()
 
