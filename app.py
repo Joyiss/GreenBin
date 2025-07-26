@@ -112,7 +112,7 @@ tips = {
 # Loading the classification model from HuggingFace
 @st.cache_resource
 def load_model():
-    model_path = hf_hub_download(repo_id="AIforGreat/TrashClassification", filename="model.keras")
+    model_path = hf_hub_download(repo_id="AIforGreat/TrashClassification", filename="trashClassifier.keras")
     return keras.models.load_model(model_path)
 
 model = load_model()
