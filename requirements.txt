@@ -9,3 +9,4 @@ folium
 streamlit-folium
 supabase
 python-dotenv
+huggingface_hub
