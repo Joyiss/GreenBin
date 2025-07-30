@@ -27,7 +27,7 @@ supabase: Client = create_client(url, key)
 # Setting up Gemini Model
 genai.configure(api_key=gemini_api_key)
 
-gen_model = genai.GenerativeModel("gemini-1.5-flash")
+gen_model = genai.GenerativeModel("gemini-2.5-flash")
 
 class_names = [
     "Battery",
