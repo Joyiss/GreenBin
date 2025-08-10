@@ -42,6 +42,3 @@ You can see all the code here:
 - Earth911 API  
 - Tensorflow
 - Supabase
----
-
-Let me know if you want to add install/setup instructions or a demo video!
