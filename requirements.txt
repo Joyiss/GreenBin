@@ -91,10 +91,9 @@ StrEnum==0.4.15
 supabase==2.17.0
 supafunc==0.10.1
 tenacity==9.1.2
-tensorboard==2.19.0
+tensorboard==2.20.0
 tensorboard-data-server==0.7.2
-tensorflow==2.19.0
-tensorflow-io-gcs-filesystem==0.37.1
+tensorflow==2.20.0
 termcolor==3.1.0
 toml==0.10.2
 tornado==6.5.1
@@ -103,7 +102,6 @@ typing-inspection==0.4.1
 typing_extensions==4.14.1
 tzdata==2025.2
 uritemplate==4.2.0
-urllib3==2.5.0
 watchdog==6.0.0
 websockets==15.0.1
 Werkzeug==3.1.3
